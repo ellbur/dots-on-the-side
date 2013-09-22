@@ -5,7 +5,7 @@
       <configuration>
         <option name="compilerLibraryLevel" value="Project" />
         <option name="compilerLibraryName" value="Maven: org.scala-lang:scala-compiler-bundle:2.10.1" />
-        <option name="compilerOptions" value="-make:transitive -dependencyfile /home/owen/IdeaProjects/dots-on-the-side/target/.scala_dependencies" />
+        <option name="compilerOptions" value="-make:transitive -dependencyfile /home/owen/stuff/dumping-ground/dots-on-the-side/target/.scala_dependencies" />
         <option name="vmOptions" value="" />
       </configuration>
     </facet>

@@ -22,7 +22,9 @@ object Enclosures {
   val nada = IdiomKind(I, I, None, None)
   val lam = IdiomKind(K, S, None, None)
 
-  val base = new Enclosure(0, nada)
+  object base {
+    def p(k: IdiomKind)(f: Enclosure => Node) = Pure(Idiom(0, k), f(new Enclosure(1, k)))
+  }
 
   // Basic eta-expanded identity.
   val etaId = base.p(lam) { x =>
