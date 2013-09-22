@@ -1,0 +1,10 @@
+*
+!*/
+!*.scala
+!*.sbt
+!*.iml
+!.gitignore
+!*.xml
+target
+.idea/workspace.xml
+
